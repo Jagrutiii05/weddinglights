@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shivani & Ashish - Wedding Celebration!</title>
+    <link rel="stylesheet" href="styles/main.css">
+    <link rel="stylesheet" href="styles/responsive.css">
+    <link rel="stylesheet" href="styles/animations.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700&family=Montserrat:wght@300;400;500&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- Audio Player -->
+    <div class="audio-player">
+        <audio id="background-music" autoplay loop>
+            <source src="assets/music/Ayhairathe.mp3" type="audio/mp3">
+        </audio>
+        <button id="music-toggle" aria-label="Toggle Music">
+            <i class="fas fa-volume-up" id="volume-icon"></i>
+        </button>
+    </div>
+
+    <!-- Header Section -->
+    <header class="hero" id="home">
+        <div class="hero-content">
+            <h1 class="names">Shivani & Ashish</h1>
+            <p class="wedding-date">November 23, 2025</p>
+            <div class="countdown-container">
+                <div id="countdown" class="countdown">
+                    <div class="time-section">
+                        <div class="time-amount" id="days">00</div>
+                        <div class="time-label">Days</div>
+                    </div>
+                    <div class="time-section">
+                        <div class="time-amount" id="hours">00</div>
+                        <div class="time-label">Hours</div>
+                    </div>
+                    <div class="time-section">
+                        <div class="time-amount" id="minutes">00</div>
+                        <div class="time-label">Minutes</div>
+                    </div>
+                    <div class="time-section">
+                        <div class="time-amount" id="seconds">00</div>
+                        <div class="time-label">Seconds</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <!-- Navigation -->
+    <nav class="main-nav">
+        <div class="nav-container">
+            <div class="logo">S&A</div>
+            <button class="mobile-menu-toggle" aria-label="Menu">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+            <ul class="nav-links">
+                <li><a href="#home" class="active">Home</a></li>
+                <li><a href="#our-story">Our Story</a></li>
+                <li><a href="#events">Wedding Events</a></li>
+                <li><a href="#gallery">Gallery</a></li>
+                <li><a href="#rsvp" class="rsvp-button">RSVP</a></li>
+                <li><a href="#guestbook">Guestbook</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Our Story Teaser -->
+    <section class="section our-story" id="our-story">
+        <div class="container">
+            <h2 class="section-title">Our Story</h2>
+            <div class="story-preview">
+                <div class="story-image">
+                    <img src="assets/images/img1.jpg" alt="Shivani and Ashish">
+                </div>
+                <div class="story-text">
+                    <p>
+                        Met under skies where the Northern Lights glow,<br>
+                        Slipped on some ice but fell in love slow.<br>
+                        I left with a passport and no plus-one,<br>
+                        Came back with stories and someone who&rsquo;s fun &lt;3
+                      </p>                      
+                    <a href="pages/timeline.html" class="btn">Read Our Story</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Events Preview -->
+    <section class="section events-preview" id="events">
+        <div class="container">
+            <h2 class="section-title">Wedding Events</h2>
+            <div class="events-grid">
+                <div class="event-card">
+                    <div class="event-icon"><i class="fas fa-glass-cheers"></i></div>
+                    <h3>Mehendi Ceremony</h3>
+                    <p class="event-date">November 21, 2025</p>
+                    <p class="event-location">We will inform you soon...</p>
+                    <a href="pages/venues.html#welcome-dinner" class="btn btn-small">Details</a>
+                </div>
+                <div class="event-card">
+                    <div class="event-icon"><i class="fas fa-cocktail"></i></div>
+                    <h3>Haldi Ceremony</h3>
+                    <p class="event-date">November 21, 2025 • 6:00 PM</p>
+                    <p class="event-location">Shivalaya Lawns</p>
+                    <a href="pages/venues.html#ceremony" class="btn btn-small">Details</a>
+                </div>
+                <div class="event-card">
+                    <div class="event-icon"><i class="fas fa-utensils"></i></div>
+                    <h3>Sangeet Ceremony</h3>
+                    <p class="event-date">November 22, 2025 • 5:30 PM</p>
+                    <p class="event-location">Shivalaya Lawns</p>
+                    <a href="pages/venues.html#reception" class="btn btn-small">Details</a>
+                </div>
+                <div class="event-card featured">
+                    <div class="event-icon"><i class="fas fa-rings-wedding"></i></div>
+                    <h3>Wedding Ceremony</h3>
+                    <p class="event-date">November 23, 2025</p>
+                    <p class="event-location">Shivalaya Lawns</p>
+                    <a href="pages/venues.html#farewell" class="btn btn-small">Details</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Gallery Preview -->
+    <section class="section gallery-preview" id="gallery">
+        <div class="container">
+            <h2 class="section-title">Gallery</h2>
+            <div class="gallery-grid">
+                <div class="gallery-item"><img src="assets/images/img4.jpg" alt="Couple Photo"></div>
+                <div class="gallery-item"><img src="assets/images/img5.jpg" alt="Couple Photo"></div>
+                <div class="gallery-item"><img src="assets/images/img3.jpg" alt="Couple Photo"></div>
+                <div class="gallery-item"><img src="assets/images/img6.jpg" alt="Couple Photo"></div>
+            </div>
+            <div class="center-content">
+                <a href="pages/gallery.html" class="btn">View More Photos</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- RSVP Teaser -->
+    <section class="section rsvp-teaser" id="rsvp">
+        <div class="container">
+            <h2 class="section-title">Join Us On Our Special Day</h2>
+            <p class="rsvp-text">We're excited to celebrate our wedding with our favorite people. Please let us know if you can make it!</p>
+            <div class="center-content">
+                <a href="pages/rsvp.html" class="btn btn-large">RSVP Now</a>
+            </div>
+            <p class="rsvp-deadline">Please respond by November 10, 2025</p>
+        </div>
+    </section>
+
+
+    <!-- Introducing Bridesmainds and groomsmen -->
+    <section class="section wedding-party" id="wedding-party">
+        <div class="container">
+        <h2 class="section-title">Meet Our Lovelies!</h2>
+        <div class="carousel">
+            <div class="carousel-person active" id="person-display">
+            <img src="assets/images/wedding-party/person1.jpg" alt="Person Photo" class="person-photo">
+            <h3 class="person-name">Jagruti</h3>
+            <p class="person-role">Bridesmaid (करवली)</p>
+            <p class="person-bio">Shivani’s partner in crime and go-to dance partner. She brings laughter, love, and emergency snacks. The spark of the family, Jagruti is the unofficial wedding planner.</p>
+            </div>
+        </div>
+        </div>
+    </section>
+  
+
+    <!-- QR Code Upload Teaser -->
+    <section class="section qr-upload-teaser" id="guestbook">
+        <div class="container">
+            <h2 class="section-title">Share Your Photos With Us</h2>
+            <div class="qr-content">
+                <div class="qr-image">
+                    <img src="assets/images/fakeqr.png" alt="QR Code for photo upload">
+                </div>
+                <div class="qr-text">
+                    <p>Capture moments from our special day and share them with us! Scan this QR code with your phone to upload photos directly to our wedding gallery.</p>
+                    <a href="pages/gallery.html#upload" class="btn">Upload Photos</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-logo">S&A</div>
+                <p class="footer-date">November 23, 2025</p>
+                <div class="social-links">
+                    <a href="#" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
+                    <a href="#" aria-label="Facebook"><i class="fab fa-facebook"></i></a>
+                </div>
+                <p class="footer-message">We can't wait to celebrate our special day with you!</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Scripts -->
+    <script src="scripts/main.js"></script>
+    <script src="scripts/countdown.js"></script>
+</body>
+</html>

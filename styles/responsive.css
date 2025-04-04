@@ -1,0 +1,142 @@
+/* Responsive Styles */
+
+/* Large Devices (desktops, less than 1200px) */
+@media (max-width: 1199.98px) {
+    .names {
+        font-size: 3.5rem;
+    }
+    
+    .section-title {
+        font-size: 2.2rem;
+    }
+}
+
+/* Medium Devices (tablets, less than 992px) */
+@media (max-width: 991.98px) {
+    .section {
+        padding: 4rem 1.5rem;
+    }
+    
+    .names {
+        font-size: 3rem;
+    }
+    
+    .story-preview, .qr-content {
+        flex-direction: column;
+        gap: 2rem;
+    }
+    
+    .story-text, .qr-text {
+        text-align: center;
+    }
+    
+    .time-section {
+        min-width: 60px;
+    }
+    
+    .time-amount {
+        font-size: 1.5rem;
+    }
+}
+
+/* Small Devices (landscape phones, less than 768px) */
+@media (max-width: 767.98px) {
+    .mobile-menu-toggle {
+        display: block;
+    }
+    
+    .nav-links {
+        position: fixed;
+        top: 70px;
+        left: 0;
+        right: 0;
+        background-color: var(--background-color);
+        flex-direction: column;
+        align-items: center;
+        padding: 2rem;
+        transform: translateY(-150%);
+        transition: transform 0.3s ease;
+        box-shadow: 0 5px 10px rgba(0, 0, 0, 0.1);
+    }
+    
+    .nav-links.active {
+        transform: translateY(0);
+    }
+    
+    .hero-content {
+        max-width: 90%;
+    }
+    
+    .names {
+        font-size: 2.5rem;
+    }
+    
+    .wedding-date {
+        font-size: 1.2rem;
+    }
+    
+    .countdown {
+        gap: 0.8rem;
+    }
+    
+    .time-section {
+        min-width: 50px;
+        padding: 0.7rem;
+    }
+    
+    .time-amount {
+        font-size: 1.2rem;
+    }
+    
+    .time-label {
+        font-size: 0.7rem;
+    }
+    
+    .events-grid {
+        grid-template-columns: 1fr;
+    }
+    
+    .section-title {
+        font-size: 2rem;
+    }
+}
+
+/* Extra Small Devices (portrait phones, less than 576px) */
+@media (max-width: 575.98px) {
+    .container {
+        padding: 0 1rem;
+    }
+    
+    .section {
+        padding: 3rem 1rem;
+    }
+    
+    .names {
+        font-size: 2rem;
+    }
+    
+    .wedding-date {
+        font-size: 1rem;
+    }
+    
+    .section-title {
+        font-size: 1.8rem;
+        margin-bottom: 2rem;
+    }
+    
+    .btn {
+        padding: 0.7rem 1.2rem;
+    }
+    
+    .gallery-grid {
+        grid-template-columns: 1fr;
+    }
+    
+    .gallery-item {
+        height: 200px;
+    }
+    
+    .event-card {
+        padding: 1.5rem;
+    }
+}
