@@ -118,7 +118,7 @@ const people = [
     {
       name: "Ankita",
       role: "Bridesmaid (करवली)",
-      bio: "Ashish’s college roommate and lifelong bro. Known for his epic toasts and infectious energy.",
+      bio: "Shivani's sister and hangout partner — deep conversations, food, and the two of them make the perfect combo!",
       image: "assets/images/wedding-party/person2.jpg"
     },
     {
@@ -126,13 +126,13 @@ const people = [
       role: "Bride’s Mom",
       bio: "The sweetest and most supportive mom, always the first to tear up with joy.",
       image: "assets/images/wedding-party/person3.jpg"
+    },
+    {
+      name: "Rajesh",
+      role: "Groomsmen",
+      bio: "Ashish’s college roommate and lifelong bro. Known for his epic toasts and infectious energy.",
+      image: "assets/images/wedding-party/person4.jpg"
     }
-    // {
-    //   name: "Mr. Rajesh Patel",
-    //   role: "Groom’s Dad",
-    //   bio: "Calm, kind, and forever ready with fatherly advice and dad jokes.",
-    //   image: "assets/images/wedding-party/person4.jpg"
-    // },
     // {
     //   name: "Jagruti",
     //   role: "Bride’s Sister",
@@ -162,4 +162,3 @@ const people = [
   
   // Initial display
   document.addEventListener("DOMContentLoaded", showNextPerson);
-  
