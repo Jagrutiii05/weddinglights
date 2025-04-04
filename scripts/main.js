@@ -113,25 +113,25 @@ const people = [
       name: "Jagruti",
       role: "Bridesmaid (करवली)",
       bio: "Shivani’s partner in crime and go-to dance partner. She brings laughter, love, and emergency snacks. The spark of the family, Jagruti is the unofficial wedding planner.",
-      image: "assets/images/wedding-party/person1.jpg"
+      image: "assets/images/wedding-party/jagruti.jpg"
     },
     {
-      name: "Ankita",
+      name: "Shubhi",
       role: "Bridesmaid (करवली)",
-      bio: "Shivani's sister and hangout partner — deep conversations, food, and the two of them make the perfect combo!",
-      image: "assets/images/wedding-party/person2.jpg"
+      bio: "Shivani’s bestie, college roommate, and the one who cared the most—basically her second mom, therapist, and alarm clock combined.",
+      image: "assets/images/wedding-party/shubhi.jpg"
     },
     {
       name: "Mrs. Ranjana",
       role: "Bride’s Mom",
-      bio: "The sweetest and most supportive mom, always the first to tear up with joy.",
-      image: "assets/images/wedding-party/person3.jpg"
+      bio: "The most caring and supportive mom—who can switch from ‘You’re my everything’ to ‘No one will marry you if you keep living like this’ in record time.",
+      image: "assets/images/wedding-party/mum.jpg"
     },
     {
-      name: "Rajesh",
+      name: "Harry",
       role: "Groomsmen",
-      bio: "Ashish’s college roommate and lifelong bro. Known for his epic toasts and infectious energy.",
-      image: "assets/images/wedding-party/person4.jpg"
+      bio: "Shivani’s college buddy and the unpaid photographer because every gang needs someone who brings a DSLR and zero complaints.",
+      image: "assets/images/wedding-party/harry.jpg"
     }
     // {
     //   name: "Jagruti",
