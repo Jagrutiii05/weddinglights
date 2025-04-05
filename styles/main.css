@@ -431,6 +431,7 @@ img {
 .footer-message {
     font-style: italic;
     margin-top: 1rem;
+    padding: 0 8rem;
 }
 .wedding-party {
     text-align: center;

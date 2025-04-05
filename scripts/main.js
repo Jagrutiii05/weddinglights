@@ -112,7 +112,7 @@ const people = [
     {
       name: "Jagruti",
       role: "Bridesmaid (करवली)",
-      bio: "Shivani’s partner in crime and go-to dance partner. She brings laughter, love, and emergency snacks. The spark of the family, Jagruti is the unofficial wedding planner.",
+      bio: "Shivani’s partner in crime and ultimate dance buddy, Jagruti brings laughs, love, and emergency snacks. The behind-the-scenes boss of all wedding chaos.",
       image: "assets/images/wedding-party/jagruti.jpg"
     },
     {
@@ -122,7 +122,7 @@ const people = [
       image: "assets/images/wedding-party/shubhi.jpg"
     },
     {
-      name: "Mrs. Ranjana",
+      name: "Ranju",
       role: "Bride’s Mom",
       bio: "The most caring and supportive mom—who can switch from ‘You’re my everything’ to ‘No one will marry you if you keep living like this’ in record time.",
       image: "assets/images/wedding-party/mum.jpg"
@@ -133,12 +133,6 @@ const people = [
       bio: "Shivani’s college buddy and the unpaid photographer because every gang needs someone who brings a DSLR and zero complaints.",
       image: "assets/images/wedding-party/harry.jpg"
     }
-    // {
-    //   name: "Jagruti",
-    //   role: "Bride’s Sister",
-    //   bio: "The spark of the family, Jagruti is the unofficial wedding planner.",
-    //   image: "assets/images/wedding-party/person5.jpg"
-    // }
   ];
   
   let currentIndex = 0;
@@ -157,8 +151,8 @@ const people = [
     currentIndex = (currentIndex + 1) % people.length;
   }
   
-  // Start rotating every 2 seconds
-  setInterval(showNextPerson, 2000);
+  // Start rotating every 4 seconds
+  setInterval(showNextPerson, 4000);
   
   // Initial display
   document.addEventListener("DOMContentLoaded", showNextPerson);
